@@ -1,4 +1,8 @@
+cwd  := $(shell pwd)
+
 build:
 	docker build ntno-board -t ntno-board:latest
-run:
-	docker run -it ntno-board:latest /bin/bash
+run: build
+	docker run -it \
+	--mount type=bind,source="$(cwd)",target=/usr/src \
+	ntno-board:latest /bin/bash
