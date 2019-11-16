@@ -9,3 +9,9 @@ for f in *.mp3; do ffmpeg -i "$f" -acodec pcm_s16le -ac 1 -ar 16000 "${f%.mp3}.w
 #copy files from docker to local
 docker cp wonderful_davinci:/usr/src/wav .
 
+
+#https://unix.stackexchange.com/questions/182602/trim-audio-file-using-start-and-stop-times
+#how to trim file from second 20 to second 40
+ffmpeg -i file.wav -ss 20 -to 40 -c copy file-2.wav
+
+
