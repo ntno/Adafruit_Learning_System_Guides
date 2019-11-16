@@ -4,8 +4,6 @@ WORKDIR /usr/src
 # COPY new-mp3s new-mp3s
 # COPY new-wavs new-wavs
 # COPY min-wavs min-wavs
-COPY itunes itunes
-COPY better better
 COPY samples samples
 COPY code.py code.py
 COPY color_names.py color_names.py

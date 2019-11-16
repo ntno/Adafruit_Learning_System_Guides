@@ -1,4 +1,4 @@
 build:
-	docker build ntno-campaign -t ntno-campaign:latest
+	docker build ntno-board -t ntno-board:latest
 run:
-	docker run -it ntno-campaign:latest /bin/bash
+	docker run -it ntno-board:latest /bin/bash
