@@ -3,13 +3,3 @@ Hue_Controller/secrets.h
 .idea
 *.DS_Store
 CircuitPython_Logger/secrets\.py
-3D*/**
-Ada*/**
-CPX*/**
-Circ*/**
-Cric*/**
-Flo*/**
-Gem*/**
-L*/**
-H*/**
-Trink*/**
