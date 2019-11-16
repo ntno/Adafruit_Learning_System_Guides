@@ -1,0 +1,4 @@
+#https://superuser.com/questions/1218442/how-to-verify-whether-a-track-is-in-mono-or-stereo
+#check whether sample is stereo or mono (mono will say 'output file is empty, nothing was encoded')
+ffmpeg -i is_this_stereo.wav -filter_complex 'pan=mono|c0=0.5*FL+-0.5*FR,silenceremove=start_periods=1' -f null -
+
