@@ -15,3 +15,6 @@ docker cp wonderful_davinci:/usr/src/wav .
 ffmpeg -i file.wav -ss 20 -to 40 -c copy file-2.wav
 
 
+https://www.partnersinrhyme.com/
+http://soundbible.com/
+https://opengameart.org/
