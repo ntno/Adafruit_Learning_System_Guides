@@ -1,40 +1,39 @@
 # background loops
 65_Dungeon_I_1m_8000.wav, PURPLE
 37_Catacombs_1m_8000.wav, PURPLE
-pass
-pass
-pass
-pass
-pass
-pass
+85_Sewers-30.wav, PURPLE
+69_Forest_Night-30.wav, BLUE
+51_Woodland_Campsite-30.wav, GREEN
+48_Overland_with_Oxen-30.wav, YELLOW
+27_Xingu_Nights-30.wav, NAVY
+stream.wav, TEAL
 
+# actions
+unlock_door.wav, GREEN 
+secret_door.wav, OLIVE
+door_open.wav, GREEN
+door_close.wav, RED
+low_tone1.wav, PINK
+pass
+pass
+pass
 
 # ambient sound
-drips1_lp.wav, GREEN
-stream.wav, GREEN
-bats.wav, GREEN
-flies.wav, GREEN
-unlock_door.wav, OLIVE
-secret_door.wav, OLIVE
-screams.wav, YELLOW
-rumble.wav, YELLOW
+flies.wav, MAROON
+drips1_lp.wav, AQUA
+rats.wav, WHITE
+creature1.wav, GREEN
+pass
+pass
+pass
+pass
 
 # attacks
-roar.wav, PINK
-creature1.wav, PINK
-humanoid_attack.wav, RED
-goblin_attack.wav, RED
-large_beast_attack.wav, RED
-elemental_attack.wav, RED
-construct_attack.wav, RED
-dragon_attack.wav, RED
-
-# events
-door_open.wav, TEAL
-door_close.wav, TEAL
-trap_arrow.wav, BLUE
-trap_gate.wav, BLUE
-trap_magic.wav, BLUE
-trap_pit.wav, BLUE
-trap_poison.wav, BLUE
-trap_spike.wav, BLUE
+roar.wav, ORANGE
+large_beast_attack.wav, MAROON
+humanoid_attack.wav, WHITE
+construct_attack.wav, YELLOW
+trap_arrow.wav, OLIVE
+pass 
+pass 
+pass
