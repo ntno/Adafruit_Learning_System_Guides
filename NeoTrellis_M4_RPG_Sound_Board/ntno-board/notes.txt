@@ -14,7 +14,7 @@ docker cp wonderful_davinci:/usr/src/wav .
 #how to trim file from second 20 to second 40
 ffmpeg -i file.wav -ss 20 -to 40 -c copy file-2.wav
 
+#rename files to not have white space
+for f in *\ *; do mv "$f" "${f// /_}"; done
 
-https://www.partnersinrhyme.com/
-http://soundbible.com/
-https://opengameart.org/
+
